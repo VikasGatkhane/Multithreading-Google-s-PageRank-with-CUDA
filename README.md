@@ -14,15 +14,3 @@ due to the communication overhead and the low processing power of CPU
 compared to GPU. Hence, designing a PageRanking algorithm efficiently
 modified for parallel GPU-CPU environment that achieves higher accuracy and consumes lesser time to evaluate the PageRank exact rank vector
 even for large-scale webgraphs.
-
-|No: of nodes| C++| CUDA C++| speedup|
-|---|---|---|---|
-|100 |405 |593| 0.68|
-|200 |6556| 2152| 3.04|
-|400 |3462 |936 |3.69|
-|800 |22785 |2356 |9.67|
-|1000 |2972898 |104831 |28.35|
-|5000 |69266776 |816446| 84.83|
-|10000| 68519880| 755148| 90.73|
-|16000 |26509166| 626986 |42.28|
-|18000 |1030231744| 18294508 |56.31|
